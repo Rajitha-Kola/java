@@ -1,0 +1,14 @@
+class Exponent {
+    public static void main(String[] args) {
+
+        int x = 2, n = 3;
+        int product = 1;
+
+        while (n > 0) {
+            product = product * x;
+            n--;
+        }
+
+        System.out.println(product);
+    }
+}
